@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JITTIMA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TimelineLite.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="open">
+<header>
+    <div class="container">
+    <nav class="nav">
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+        </div>
+        <a href="index.html" class="logo"><h1>J</h1></a>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link" active>Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    </div>
+</header>
+<!--Header ends-->
+<section class="hero" id="hero">
+    <div class="container">
+        <h2 class="sub-headline">
+            <span class="first-letter">Jittima</span>
+        </h2>
+        <h1 class="headline">SRISANG</h1>
+    </div>
+</section>
+<!--Hero end-->
+<section class="discover-out-story">
+    <div class="container" id="about">
+        <div class="about-info">
+            <div class="about-description padding-right animate-left">
+                <div class="global-headline">
+                    <h2 class="sub-headline">
+                        <span class="first-letter">A</span>bout me
+                    </h2>
+                    <h1 class="headline headline-dark ">About me</h1>
+                </div>
+                <p>
+                    <br>
+                    My name is Jittima Srisang.<br>
+                    I'm 21 year old.<br>
+                    My major is Software Engineer at University of Phayao.
+                </p>
+                <br>
+                <h1 class="quote">"It’s going to happen because I’m going to make it happen" </h1>
+            </div>
+            <div class="restaurant-info-img animate-right">
+                <img src="images/sarah-dokowicz-oJz45NLsD74-unsplash.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<!--About me end-->
+<section class="tasteful-recipes between">
+    <div class="container" id="services">
+        <div class="global-headline">
+            <div class="animate-top">
+                <h2 class="sub-headline">
+                    <span class="first-letter">S</span>ervices
+                </h2>
+                <h1 class="headline headline-dark ">Services</h1>
+                <div class="asterisk"></div>
+                <div class="html">
+                    <div class="tag-html">
+                        <p>HTML</p>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar-html"></div>
+                    </div>
+                </div>
+                <div class="html">
+                    <div class="tag-css">
+                        <p>CSS</p>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar-css"></div>
+                    </div>
+                </div>
+                <div class="html">
+                    <div class="tag-javascript">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar-javascript"></div>
+                    </div>
+                </div>
+                <div class="html">
+                    <div class="tag-python">
+                        <p>Python</p>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar-python"></div>
+                    </div>
+                </div>
+                <div class="html">
+                    <div class="tag-vue">
+                        <p>Vue</p>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar-vue"></div>
+                    </div>
+                </div>
+                <div class="html">
+                    <div class="tag-sql">
+                        <p>SQL</p>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar-sql"></div>
+                    </div>
+                </div>
+                <div class="html">
+                    <div class="tag-django">
+                        <p>Django</p>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar-django"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Services ends-->
+<!--Portfolio-->
+<section class="portfolio">
+    <div class="container" id="portfolio">
+        <div class="about-description animate-right">
+            <div class="global-headline">
+                <h2 class="sub-headline">
+                    <span class="first-letter">P</span>ortfolio
+                </h2>
+                <h1 class="headline headline-dark ">Portfolio</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="filter-buttons">
+                <ul id="filter-btns">
+                    <li class="active" data-target="all">All</li>
+                    <li data-target="website">Website</li>
+                    <li data-target="figma">Figma</li>
+                    <li data-target="logo">Logo</li>
+                    <li data-target="art">Art</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="portfolio-gallery" >
+                <!--            img-->
+                <div class="item" data-id="website">
+                    <div class="inner">
+                    <img src="images/emile-perron-xrVDYZRGdw4-unsplash.jpg" alt="portfolio" />
+                    <div class="overlay">
+                        <span class="fa fa-plus"></span>
+                        <h4>Website</h4>
+                    </div>
+                    </div>
+                </div>
+                <div class="item" data-id="logo">
+                    <div class="inner">
+                    <img src="images/sarah-dokowicz-oJz45NLsD74-unsplash.jpg" alt="portfolio" />
+                    <div class="overlay">
+                        <span class="fa fa-plus"></span>
+                        <h4>Logo</h4>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--        <div class="lightbox hide">-->
+<!--            <span class="close-lightbox fa fa-times"></span>-->
+<!--            <img src="images/emile-perron-xrVDYZRGdw4-unsplash.jpg" alt="portfolio" />-->
+<!--        </div>-->
+
+
+<!--        <div class="about-info">-->
+
+<!--            <div class="image-group padding-right animate-left">-->
+<!--                <img src="images/menu-group-1.jpg" alt="">-->
+<!--                <img src="images/menu-group-2.jpg" alt="">-->
+<!--                <img src="images/menu-group-3.jpg" alt="">-->
+<!--                <img src="images/menu-group-4.jpg" alt="">-->
+<!--            </div>-->
+
+<!--        </div>-->
+    </div>
+
+</section>
+<!--Culinary delight ends-->
+<footer>
+    <div class="container" >
+        <div class="back-to-top">
+            <a href="#hero"><i class="fas fa-chevron-up"></i></a>
+        </div>
+        <div class="footer-content">
+            <div class="footer-content-divide animate-bottom">
+                <div class="social-media">
+                    <h4>Contact Me</h4>
+                    <ul class="social-icons">
+                        <li>
+                            <a href="https://www.facebook.com/jittima.03"><i class="fab fa-facebook-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/JittimaSrisang"><i class="fab fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a href="http://line.me/ti/p/~Chincake"><i class="fab fa-line"></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+<!--                <div class="newsletter-container">-->
+<!--                    <h4>Newsletter</h4>-->
+<!--                    <form action="" class="newsletter-form">-->
+<!--                        <input type="text" class="newsletter-input" placeholder="Your email address...">-->
+<!--                        <button class="newsletter-btn" type="submit">-->
+<!--                            <i class="fas fa-envelope"></i>-->
+<!--                        </button>-->
+<!--                    </form>-->
+<!--                </div>-->
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="main.js"></script>
+
+</body>
+</html>
